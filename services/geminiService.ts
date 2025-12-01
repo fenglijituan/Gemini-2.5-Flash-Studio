@@ -7,12 +7,12 @@ const getAIClient = () => {
   return new GoogleGenAI({ apiKey: process.env.API_KEY });
 };
 
-export const createChatSession = (): Chat => {
+export const createChatSession = (systemInstruction: string): Chat => {
   const ai = getAIClient();
   return ai.chats.create({
     model: 'gemini-2.5-flash',
     config: {
-      systemInstruction: "You are a helpful and versatile AI assistant powered by Gemini 2.5 Flash. You provide clear, concise, and accurate answers. Use formatting like Markdown to make your responses easy to read.",
+      systemInstruction: systemInstruction,
       thinkingConfig: {
          thinkingBudget: 1024 // Efficient thinking budget
       }

@@ -1,5 +1,5 @@
 {
-  "name": "gemini-2.5-flash-studio",
+  "name": "fl-chatbot-(gemini-2.5-flash-studio)",
   "private": true,
   "version": "0.0.0",
   "type": "module",

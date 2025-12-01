@@ -1,5 +1,7 @@
 {
-  "name": "Gemini 2.5 Flash Studio",
-  "description": "A versatile creative suite featuring fast AI chat and image generation powered by Gemini 2.5 Flash.",
-  "requestFramePermissions": []
+  "name": "FL Chatbot (Gemini 2.5 Flash Studio)",
+  "description": "A versatile creative suite featuring multimodal voice/text chat, image generation, and TTS powered by Gemini 2.5 Flash.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
 }

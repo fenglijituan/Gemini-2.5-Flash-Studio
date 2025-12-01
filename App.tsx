@@ -30,10 +30,10 @@ const App: React.FC = () => {
         <header className="flex flex-col md:flex-row items-center justify-between mb-6 gap-4">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-tr from-indigo-500 to-pink-500 rounded-lg flex items-center justify-center font-bold text-white">
-              G
+              FL
             </div>
             <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">
-              Gemini 2.5 Flash Studio
+              FL Chatbot (Gemini 2.5 Studio)
             </h1>
           </div>
           
